@@ -1,0 +1,9 @@
+.menu-list a {
+  padding: .75em .5em; }
+
+.sticky {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1; }
+
+/*# sourceMappingURL=overrides.css.map */
