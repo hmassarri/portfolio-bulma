@@ -10,7 +10,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/overrides.css">
@@ -65,50 +65,41 @@
 
         <section class="section has-text-centered-mobile">
           <div class="container is-fluid">
-            <h1 class="title">Section</h1>
-            <h2 class="subtitle">
-              A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-            </h2>
+            <p>&nbsp;</p>
           </div>
         </section>
 
-        <div class="container is-fluid">
-          <article class="media has-background-light">
-            <figure class="media-left">
-              <p class="image is-64x64">
-                <img src="https://bulma.io/images/placeholders/128x128.png">
-              </p>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-                </p>
-              </div>
-              <nav class="level is-mobile">
-                <div class="level-left">
-                  <a class="level-item">
-                    <span class="icon is-small"><i class="fas fa-reply"></i></span>
-                  </a>
-                  <a class="level-item">
-                    <span class="icon is-small"><i class="fas fa-retweet"></i></span>
-                  </a>
-                  <a class="level-item">
-                    <span class="icon is-small"><i class="fas fa-heart"></i></span>
-                  </a>
+        <!-- Portfolio - Nested columns -->
+        <div class="columns is-multiline is-desktop">
+
+          <div class="column is-12 has-text-centered-mobile">
+            <div class="box">
+              <div class="columns is-desktop">
+
+                <div class="column is-narrow-desktop">
+                  <img src="img/400x300.jpg" alt="" class="image is-image-centered">
                 </div>
-              </nav>
+
+                <div class="column">
+                  <p class="is-size-7 is-uppercase has-text-weight-semibold">category | category | category</p>
+                  <h1>Project Title</h1>
+                  <p>Project summary text</p>
+                  <p>&nbsp;</p>
+                  <button class="button is-medium is-black">View Case Study</button>
+                  <p>&nbsp;</p>
+                </div>
+
+              </div>
             </div>
-            <div class="media-right">
-              <button class="delete"></button>
-            </div>
-          </article>
+          </div>
+
+          <div class="column is-12">
+          </div>
+
         </div>
 
-
       </div><!-- /End Column 10 -->
+
     </div><!-- /End Columns -->
 
   </div>

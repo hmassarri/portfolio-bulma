@@ -1,3 +1,8 @@
+@media (max-width: 1024px) {
+  .sticky {
+    position: inherit !important;
+    overflow: hidden !important;
+    z-index: 1 !important; } }
 .menu-list a {
   padding: .75em .5em; }
 
@@ -5,5 +10,13 @@
   position: fixed;
   overflow: hidden;
   z-index: 1; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.is-image-centered {
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=overrides.css.map */
