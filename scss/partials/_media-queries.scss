@@ -1,9 +1,12 @@
 @media (max-width: 1024px) {
-
   .sticky {
     position: inherit !important;
     overflow: hidden !important;
     z-index: 1 !important;
   }
-
+}
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: inherit;
+  }
 }

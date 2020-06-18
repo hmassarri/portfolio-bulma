@@ -3,13 +3,15 @@
     position: inherit !important;
     overflow: hidden !important;
     z-index: 1 !important; } }
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: inherit; } }
 .menu-list a {
   padding: .75em .5em; }
 
 .sticky {
   position: fixed;
-  overflow: hidden;
-  z-index: 1; }
+  overflow: hidden; }
 
 img {
   max-width: 100%;
@@ -18,5 +20,18 @@ img {
 .is-image-centered {
   margin-left: auto;
   margin-right: auto; }
+
+.currentLink {
+  background-color: #F06292 !important;
+  color: #000000 !important; }
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  background-color: #F06292; }
+
+.navbar-brand a.navbar-item:focus, .navbar-brand a.navbar-item:hover {
+  background-color: #F06292; }
+
+a.has-text-white:focus, a.has-text-white:hover {
+  color: #000000 !important; }
 
 /*# sourceMappingURL=overrides.css.map */
