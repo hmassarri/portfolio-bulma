@@ -1,7 +1,7 @@
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<footer class="footer is-size-7 has-text-weight-light has-text-black has-background-light">
+  <nav class="level">
+    <p class="level-item has-text-centered">Copyright &copy; 1998-2020</p>
+    <p class="level-item has-text-centered"><strong>HUGOMASSARRI.com / Hugo M.</strong></p>
+    <p class="level-item has-text-centered">All Rights Reserved</p>
+  </nav>
+</footer>

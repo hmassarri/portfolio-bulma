@@ -19,10 +19,9 @@
     </div>
 
     <div class="navbar-menu" id="navbarExample">
-      <div class="navbar-end is-uppercase is-size-7 has-text-weight-bold">
+      <div class="navbar-end is-uppercase is-size-7 has-text-weight-light">
         <a id="portfolio" href="portfolio.php" class="navbar-item has-text-white">Portfolio</a>
         <a id="discography" href="discography.php" class="navbar-item has-text-white">Discography</a>
-        <a id="aboutme" href="about.php" class="navbar-item has-text-white">About</a>
         <a id="resume" href="resume.php" class="navbar-item has-text-white">Resume</a>
         <a id="contact" href="contact.php" class="navbar-item has-text-white">Contact</a>
       </div>

@@ -17,7 +17,7 @@
 
 
   <!-- Main Section -->
-  <div class="container is-fluid">
+  <div class="main-container container is-fluid">
 
     <div class="columns">
       <div class="column">
@@ -40,6 +40,7 @@
   <!--/end container -->
 
   <?php include 'includes/footer.php'; ?>
+  <?php include 'includes/js.php'; ?>
 
 </body>
 

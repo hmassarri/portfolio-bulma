@@ -14,27 +14,18 @@ $(document).ready(function() {
           $('.navbar-menu a').removeClass('currentLink');
           $('.navbar-menu a#index').addClass('');
           break;
-
-      case "aboutme":
-          $('.navbar-menu a').removeClass('currentLink');
-          $('.navbar-menu a#aboutme').addClass('currentLink');
-          break;
-
       case "portfolio":
           $('.navbar-menu a').removeClass('currentLink');
           $('.navbar-menu a#portfolio').addClass('currentLink');
           break;
-
       case "resume":
           $('.navbar-menu a').removeClass('currentLink');
           $('.navbar-menu a#resume').addClass('currentLink');
           break;
-
       case "discography":
           $('.navbar-menu a').removeClass('currentLink');
           $('.navbar-menu a#discography').addClass('currentLink');
           break;
-
       case "contact":
           $('.navbar-menu a').removeClass('currentLink');
           $('.navbar-menu a#contact').addClass('currentLink');

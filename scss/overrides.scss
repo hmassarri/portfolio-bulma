@@ -15,6 +15,12 @@
 
 html, body {
   font-family: "Helvetica Nueue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+
+.main-container {
+  min-height: 100vh;
 }
 
 .menu-list a {
@@ -55,4 +61,11 @@ background-color: #F06292;
 
 a.has-text-white:focus, a.has-text-white:hover {
  color: #000000 !important;
+}
+
+//Footer
+.footer {
+  position: absolute;
+  width: 100%;
+  padding: 1rem 1rem !important;
 }
