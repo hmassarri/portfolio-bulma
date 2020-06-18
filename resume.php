@@ -1,7 +1,7 @@
 <?php include 'includes/head.php'; ?>
 
 
-<body id="index">
+<body id="resume">
 
 
   <?php include 'includes/menu.php'; ?>
@@ -10,7 +10,7 @@
   <section class="hero is-dark is-medium">
     <div class="hero-body">
       <div class="container is-fluid has-text-centered">
-        <h3 class="title has-text-weight-light is-3">Product designer specializing in user experience and interface design</h3>
+        <h1 class="title has-text-weight-light is-1">Resume</h1>
       </div>
     </div>
   </section>
@@ -26,7 +26,10 @@
 
             <div class="columns">
               <div class="column has-text-centered">
-
+                <h1 class="title"></h1>
+                <h3 class="subtitle my-5 py-5">
+                  I‘m a UX/UI Designer with five years experience conceptualizing and crafting digital products, helping businesses expand their capacity for impact. <br />Working with product strategy, facilitation and prototyping with a solid background in interface design and front-end development.
+                </h3>
               </div>
             </div>
 

@@ -25,9 +25,9 @@ $(document).ready(function() {
           $('.navbar-menu a#portfolio').addClass('currentLink');
           break;
 
-      case "process":
+      case "resume":
           $('.navbar-menu a').removeClass('currentLink');
-          $('.navbar-menu a#process').addClass('currentLink');
+          $('.navbar-menu a#resume').addClass('currentLink');
           break;
 
       case "discography":

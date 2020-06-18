@@ -1,5 +1,22 @@
 @import 'partials/media-queries';
 
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+
+html, body {
+  font-family: "Helvetica Nueue", Helvetica, Arial, sans-serif;
+}
+
 .menu-list a {
   padding: .75em .5em;
 }
